@@ -46,12 +46,15 @@ Namespaces are one honking great idea -- let's do more of those!
 
 ## About
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [Ochieng2petere](https://github.com/ochieng2peter/alx-higher_level_programming).
+- This repository consists of all the Python projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [Ochieng2petere](https://github.com/ochieng2peter/alx-higher_level_programming).
 
 
 ## Resource
 
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Whetting your appetite](https://docs.python.org/3/tutorial/appetite.html)
+- [Using the Python Interpreter](https://docs.python.org/3/tutorial/interpreter.html)
+- [An Informal Introduction to Python](https://docs.python.org/3/tutorial/introduction.html)
 - [Learn to Program](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt)
 - [The Python Handbook](https://www.freecodecamp.org/news/the-python-handbook/)
 - [pycodestyle](https://pypi.org/project/pycodestyle/)
