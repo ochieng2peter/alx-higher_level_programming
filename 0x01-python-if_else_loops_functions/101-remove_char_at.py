@@ -7,4 +7,3 @@ def remove_char_at(str, n):
     else:
         # Otherwise, return a new string with the character at index n removed
         return str[:n] + str[n+1:]
-
