@@ -1,6 +1,6 @@
 # 0x05. Python - Exceptions
 
-`Python
+## Python
 
 ``` 
 By: Guillaume
@@ -51,7 +51,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All your files must be executable
 - The length of your files will be tested using wc
 
-### Tasks
+## Tasks
 
 0. Safe list printing
 
@@ -62,12 +62,12 @@ Write a function that prints x elements of a list.
 - Prototype: def safe_print_list(my_list=[], x=0):
 - my_list can contain any type (integer, string, etc.)
 - All elements must be printed on the same line followed by a new line.
-- `x` represents the number of elements to print
-- `x` can be bigger than the length of my_list
+- x represents the number of elements to print
+- x can be bigger than the length of my_list
 - Returns the real number of elements printed
 - You have to use try: / except:
 - You are not allowed to import any module
-- You are not allowed to use `len()`
+- You are not allowed to use len()
 
 
 ```
