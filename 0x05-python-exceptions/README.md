@@ -528,7 +528,7 @@ File: 102-magic_calculation.py
 #advanced
 Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/070710952984e4d126e114405cefe83af2271ce8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230529%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230529T221612Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2c34a914250a718a2c0235c25c6aace8564807a57447078a900726d3cc835d00" alt="" loading='lazy' style="" />
+[![olympic logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/070710952984e4d126e114405cefe83af2271ce8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230529%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230529T221612Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2c34a914250a718a2c0235c25c6aace8564807a57447078a900726d3cc835d00)](https://s3.amazonaws.com)
 
 Python lists:
 
