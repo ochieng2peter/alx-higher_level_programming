@@ -1,17 +1,24 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
+"""A script that takes in arguments and displays all values in the states."""
+
 import MySQLdb
-import sys
+from sys import argv
 
 
 if __name__ == "__main__":
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
-    cur = db.cursor()
-    match = sys.argv[4]
-    cur.execute("SELECT * FROM states WHERE name LIKE %s", (match, ))
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-    cur.close()
-    db.close()
+    database = MySQLdb.connect(user=argv[1],
+                               passwd=argv[2],
+                               db=argv[3])
+
+    try:
+        curs = database.cursor()
+        curs.execute("SELECT * FROM states WHERE name\
+                    LIKE %s ORDER BY states.id\
+                    ASC", [argv[4]])
+        rows = curs.fetchall()
+        for row in rows:
+            print(row)
+        curs.close()
+    except MySQLdb.Error as e:
+        print(f"Error executing the query: {e}")
+    database.close()
