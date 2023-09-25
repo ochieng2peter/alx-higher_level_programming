@@ -1,15 +1,15 @@
 #!/usr/bin/node
-const myObject = {
-  type: 'object',
-  value: 12
+
+function incr (number) {
+  return number + 1;
+}
+
+function incrementAndCall (number, theFunction) {
+  const incrementedNumber = incr(number);
+  theFunction(incrementedNumber);
+}
+
+module.exports = {
+  incr,
+  incrementAndCall
 };
-console.log(myObject);
-myObject.incr = function () {
-  this.value++;
-};
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
